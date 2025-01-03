@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Go Home Shortcut",
+  "version": "1.0",
+  "description": "Keyboard shortcut to go to the home page.",
+  "permissions": ["tabs"],
+  "commands": {
+    "go-home": {
+      "suggested_key": {
+        "mac": "Command+MacCtrl+I"
+      },
+      "description": "Go to the home page"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
